@@ -1,0 +1,4 @@
+#!/bin/bash
+
+mspdebug rf2500 reset
+mspdebug rf2500 run
