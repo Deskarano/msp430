@@ -19,7 +19,7 @@ int main(void)
     int loop;
 
     while(1) {
-        while((P1IN & BTN) != BTN);
+        while((P1IN & BTN) == BTN);
         count++;
 
         for(loop = 0; loop < count; loop++)
