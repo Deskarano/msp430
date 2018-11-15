@@ -18,8 +18,7 @@ int main(void)
     int count = 0;
     int loop;
 
-    while(1)
-    {
+    while(1) {
         while((P1IN & BTN) != BTN);
         count++;
 
